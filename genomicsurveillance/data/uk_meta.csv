@@ -1,18 +1,18 @@
 ,pop18,lad19cd,lad19nm,lad19id,utla19cd,utla19nm,utla19id,rgn19cd,rgn19nm,rgn19id,ctry19cd,ctry19nm,ctry19id
-0,5301139,100000000,Region I (Ilocos Region),0,100000000,Region I (Ilocos Region),0,100000000,Region I (Ilocos Region),0,100000000,England,0
-1,3685744,200000000,Region II (Cagayan Valley),1,200000000,Region II (Cagayan Valley),0,200000000,Region II (Cagayan Valley),0,200000000,England,0
-2,12422172,300000000,Region III (Central Luzon),2,300000000,Region III (Central Luzon),0,300000000,Region III (Central Luzon),0,300000000,England,0
-3,16195042,400000000,Region IV-A (CALABARZON),3,400000000,Region IV-A (CALABARZON),0,400000000,Region IV-A (CALABARZON),0,400000000,England,0
-4,3228558,1700000000,MIMAROPA Region,4,1700000000,MIMAROPA Region,0,1700000000,MIMAROPA Region,0,1700000000,England,0
-5,6082165,500000000,Region V (Bicol Region),5,500000000,Region V (Bicol Region),0,500000000,Region V (Bicol Region),1,500000000,England,0
-6,7954723,600000000,Region VI (Western Visayas),6,600000000,Region VI (Western Visayas),0,600000000,Region VI (Western Visayas),1,600000000,England,0
-7,8081988,700000000,Region VII (Central Visayas),7,700000000,Region VII (Central Visayas),0,700000000,Region VII (Central Visayas),1,700000000,England,0
-8,4547150,800000000,Region VIII (Eastern Visayas),8,800000000,Region VIII (Eastern Visayas),0,800000000,Region VIII (Eastern Visayas),1,800000000,England,0
-9,3875576,900000000,Region IX (Zamboanga Peninsula),9,900000000,Region IX (Zamboanga Peninsula),0,900000000,Region IX (Zamboanga Peninsula),2,900000000,England,0
-10,5022768,1000000000,Region X (Northern Mindanao),10,1000000000,Region X (Northern Mindanao),0,1000000000,Region X (Northern Mindanao),2,1000000000,England,0
-11,5243536,1100000000,Region XI (Davao Region),11,1100000000,Region XI (Davao Region),0,1100000000,Region XI (Davao Region),2,1100000000,England,0
-12,4901486,1200000000,Region XII (SOCCSKSARGEN),12,1200000000,Region XII (SOCCSKSARGEN),0,1200000000,Region XII (SOCCSKSARGEN),2,1200000000,England,0
-13,13484462,1300000000,National Capital Region (NCR),13,1300000000,National Capital Region (NCR),0,1300000000,National Capital Region (NCR),2,1300000000,England,0
-14,1797660,1400000000,Cordillera Administrative Region (CAR),14,1400000000,Cordillera Administrative Region (CAR),0,1400000000,Cordillera Administrative Region (CAR),3,1400000000,England,0
-15,2804788,1600000000,Region XIII (Caraga),15,1600000000,Region XIII (Caraga),0,1600000000,Region XIII (Caraga),3,1600000000,England,0
-16,4404288,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),16,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),0,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),3,1900000000,England,0
+0,53020,100000000,Region I (Ilocos Region),0,100000000,Region I (Ilocos Region),0,100000000,Region I (Ilocos Region),0,100000000,England,0
+1,93069,200000000,Region II (Cagayan Valley),1,200000000,Region II (Cagayan Valley),0,200000000,Region II (Cagayan Valley),0,200000000,England,0
+2,1110940,300000000,Region III (Central Luzon),2,300000000,Region III (Central Luzon),0,300000000,Region III (Central Luzon),0,300000000,England,0
+3,299173,400000000,Region IV-A (CALABARZON),3,400000000,Region IV-A (CALABARZON),0,400000000,Region IV-A (CALABARZON),0,400000000,England,0
+4,444017,1700000000,MIMAROPA Region,4,1700000000,MIMAROPA Region,0,1700000000,MIMAROPA Region,0,1700000000,England,0
+5,140632,500000000,Region V (Bicol Region),5,500000000,Region V (Bicol Region),0,500000000,Region V (Bicol Region),1,500000000,England,0
+6,667890,600000000,Region VI (Western Visayas),6,600000000,Region VI (Western Visayas),0,600000000,Region VI (Western Visayas),1,600000000,England,0
+7,474004,700000000,Region VII (Central Visayas),7,700000000,Region VII (Central Visayas),0,700000000,Region VII (Central Visayas),1,700000000,England,0
+8,328738,800000000,Region VIII (Eastern Visayas),8,800000000,Region VIII (Eastern Visayas),0,800000000,Region VIII (Eastern Visayas),1,800000000,England,0
+9,874095,900000000,Region IX (Zamboanga Peninsula),9,900000000,Region IX (Zamboanga Peninsula),0,900000000,Region IX (Zamboanga Peninsula),2,900000000,England,0
+10,279992,1000000000,Region X (Northern Mindanao),10,1000000000,Region X (Northern Mindanao),0,1000000000,Region X (Northern Mindanao),2,1000000000,England,0
+11,609758,1100000000,Region XI (Davao Region),11,1100000000,Region XI (Davao Region),0,1100000000,Region XI (Davao Region),2,1100000000,England,0
+12,882547,1200000000,Region XII (SOCCSKSARGEN),12,1200000000,Region XII (SOCCSKSARGEN),0,1200000000,Region XII (SOCCSKSARGEN),2,1200000000,England,0
+13,935357,1300000000,National Capital Region (NCR),13,1300000000,National Capital Region (NCR),0,1300000000,National Capital Region (NCR),2,1300000000,England,0
+14,512558,1400000000,Cordillera Administrative Region (CAR),14,1400000000,Cordillera Administrative Region (CAR),0,1400000000,Cordillera Administrative Region (CAR),3,1400000000,England,0
+15,560817,1600000000,Region XIII (Caraga),15,1600000000,Region XIII (Caraga),0,1600000000,Region XIII (Caraga),3,1600000000,England,0
+16,706285,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),16,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),0,1900000000,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),3,1900000000,England,0
