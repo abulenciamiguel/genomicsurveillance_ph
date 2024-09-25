@@ -1,4 +1,4 @@
-from .api import get_specimen
+# from .api import get_specimen
 # from .meta_data import get_aliases, get_england, get_ph, get_merged_delta_aliases, get_meta_data
 
 from .meta_data import get_ph, get_meta_data
