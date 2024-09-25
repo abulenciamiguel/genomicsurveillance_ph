@@ -6,9 +6,9 @@ Models to estimate the incidence of virus variants.
 """
 
 from .data import (
-    get_aliases,
-    get_england,
-    get_merged_delta_aliases,
+    #get_aliases,
+    #get_england,
+    #get_merged_delta_aliases,
     get_meta_data,
     get_specimen,
 )
