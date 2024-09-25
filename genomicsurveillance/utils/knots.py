@@ -8,7 +8,7 @@ from .epiestim import infection_to_test
 
 
 def create_date_list(
-    periods: int, start_date: str = "2020-09-01", freq: str = "d"
+    periods: int, start_date: str, freq: str = "d"
 ) -> list:
     """
     Creates a consecutive date list starting at start_day for period days.

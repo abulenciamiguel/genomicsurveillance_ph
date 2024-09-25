@@ -22,7 +22,8 @@ def epiestim_R(
     q_upper: float = 0.975,
 ):
     """
-    Calculates the R value as described in Anne Core et. al. 2013.
+    Calculates the R value as described in 
+    Cori et. al. 2013 (https://doi.org/10.1093/aje/kwt133)
 
     :param cases: Array with daily number of cases.
     :param mu: Mean of the serial interval distribution.
@@ -38,10 +39,8 @@ def epiestim_R(
     :returns: An array with shape (3, cases.shape[0]) containing
         the mean, lower and upper bounds of the calculated R value.
     """
-    # TODO: Refactor this logic ?
-    # assert ((sigma is not None) and (cv is None)) or (
-    #     (sigma is None) and (cv is not None)
-    # ), "Either sigma OR cv must be defined."
+    if sigma is None and cv is None:
+            raise ValueError("One of 'sigma' or 'cv' must be provided.")
 
     if cv is not None:
         sigma = cv * mu
@@ -75,7 +74,8 @@ def epiestim_discretise_serial_interval(
     k: int, mu: float = 6.3, sigma: Optional[float] = None, cv: Optional[float] = 0.62
 ):
     """
-    Discretises a gamma distribution according to Cori et al. 2013.
+    Discretises a gamma distribution according to 
+    Cori et. al. 2013 (https://doi.org/10.1093/aje/kwt133)
 
 
     :param k: Day of the serial interval (k >= 0).
@@ -86,10 +86,8 @@ def epiestim_discretise_serial_interval(
         defaults to None. Either sigma OR cv must be specified.
     :returns: Discretised serial interval distribution.
     """
-    # TODO: Refactor this logic ?
-    # assert ((sigma is not None) and (cv is None)) or (
-    #     (sigma is None) and (cv is not None)
-    # ), "Either sigma OR cv must be defined."
+    if sigma is None and cv is None:
+            raise ValueError("One of 'sigma' or 'cv' must be provided.")
 
     if cv is not None:
         sigma = cv * mu
@@ -109,7 +107,7 @@ def epiestim_discretise_serial_interval(
 def infection_to_test(k: int, mu=1.92, sigma=0.65):
     """
     Infection to postive test result. Derived from the incubation time distribution in
-    Bi et. al. (2020).
+    Bi et al. 2020 (https://doi.org/10.1016/S1473-3099(20)30287-5)
     """
     test_dist = stats.lognorm(s=sigma, loc=0, scale=np.exp(mu))
     return np.diff([test_dist.cdf(i) for i in range(k + 2)])[k]
