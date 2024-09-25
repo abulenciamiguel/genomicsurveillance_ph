@@ -10,7 +10,8 @@ from .data import (
     #get_england,
     #get_merged_delta_aliases,
     get_meta_data,
-    get_specimen,
+    get_ph,
+    #get_specimen,
 )
 from .models import MultiLineage
 from .utils import (
@@ -28,6 +29,7 @@ from .utils import (
 
 __all__ = [
     "get_meta_data",
+    "get_ph",
     "get_england",
     "get_specimen",
     "get_aliases",
